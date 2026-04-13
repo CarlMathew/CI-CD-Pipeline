@@ -5,4 +5,4 @@ def add(a: int, b: int) -> int:
 
 
 def minus(a: int, b: int) -> int:
-    return a * b
+    return a - b
