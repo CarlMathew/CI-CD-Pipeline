@@ -10,4 +10,4 @@ def test_minus():
 
 
 def test_divide():
-    assert divide(10, 2) == 2
+    assert divide(10, 2) == 5
