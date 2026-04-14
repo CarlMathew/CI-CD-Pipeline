@@ -1,4 +1,4 @@
-from app.calculator import add, minus, multiplaction
+from app.calculator import add, minus, multiplaction, division
 
 
 def test_add():
@@ -12,3 +12,7 @@ def test_minus():
 
 def test_multiplaction():
     assert multiplaction(5, 5) == 25
+
+
+def test_division():
+    assert division(10, 2) == 5
